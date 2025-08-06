@@ -1,9 +1,10 @@
+/* Reset básico*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Estilo geral do site */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f6f8;
@@ -11,7 +12,7 @@ body {
     line-height: 1.6;
     padding: 0 20px;
 }
-
+/* Cabeçalho com menu */
 header {
     background-color: #0d3b66;
     color: #fff;
@@ -45,7 +46,7 @@ nav ul li a:hover {
     color: #0d3b66;
     border-radius: 5px;
 }
-
+/* Conteúdo principal */
 main {
     max-width: 900px;
     text-align: justify;
@@ -96,15 +97,7 @@ form button:hover {
     background-color: #faa916;
     color: #0d3b66;
 }
-
-footer {
-    margin-top: 40px;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 0.9em;
-    color: #555;
-}
-
+/* Imagem de perfil na página sobre */
 .foto-perfil {
     width: 300px;           
     height: auto;           
@@ -113,7 +106,7 @@ footer {
     margin: 20px auto;      
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Bloco de formação (3 seções) */
 .formacao-bloco {
     background-color: #ffffff;
     padding: 20px;
@@ -137,4 +130,12 @@ footer {
 .formacao-bloco li {
     margin-bottom: 8px;
     font-size: 1.05em;
+}
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    color: #555;
 }
